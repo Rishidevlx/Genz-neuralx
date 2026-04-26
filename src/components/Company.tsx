@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "motion/react";
-import { 
-  Target, 
-  Layers, 
-  Rocket, 
-  Cpu, 
-  Globe, 
-  Zap, 
-  ShieldCheck, 
+import {
+  Target,
+  Layers,
+  Rocket,
+  Cpu,
+  Globe,
+  Zap,
+  ShieldCheck,
   Users,
   Lightbulb,
   Workflow
@@ -60,9 +60,9 @@ const sections = [
 
 const founders = [
   {
-    name: "Freeza",
+    name: "Ragul Kishore",
     role: "Founder",
-    description: "Freeza founded the company with a strong vision to transform businesses through innovative technology and AI-driven solutions. His focus is not just on delivering services, but on building scalable digital systems that help businesses grow efficiently.\n\nWith expertise in AI products, automation, and modern development technologies, he believes that real success comes from smart solutions, continuous innovation, and result-oriented execution.",
+    description: "Ragul Kishore founded the company with a strong vision to transform businesses through innovative technology and AI-driven solutions. His focus is not just on delivering services, but on building scalable digital systems that help businesses grow efficiently.\n\nWith expertise in AI products, automation, and modern development technologies, he believes that real success comes from smart solutions, continuous innovation, and result-oriented execution.",
     icon: Cpu
   },
   {
@@ -80,7 +80,7 @@ export default function Company() {
       <section className="relative min-h-[70vh] flex items-center justify-center pt-32 px-6">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px]" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-cyber-teal/5 blur-[120px] rounded-full -z-10" />
-        
+
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -104,7 +104,7 @@ export default function Company() {
             transition={{ delay: 0.2 }}
             className="text-ink/60 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed"
           >
-            Engineering growth through a unique blend of strategic vision, 
+            Engineering growth through a unique blend of strategic vision,
             technical automation, and AI performance.
           </motion.p>
         </div>
@@ -177,11 +177,11 @@ export default function Company() {
               <div className="relative aspect-square glass-card !p-0 rounded-[48px] overflow-hidden flex items-center justify-center group">
                 <div className="absolute inset-0 bg-gradient-to-br from-cyber-teal/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                 <section.icon className="w-32 h-32 md:w-48 md:h-48 text-cyber-teal/10 group-hover:text-cyber-teal/20 transition-all duration-700 group-hover:scale-110" />
-                
+
                 {/* Decorative Elements */}
                 <div className="absolute top-12 right-12 w-24 h-24 border border-black/5 rounded-full animate-spin-slow" />
                 <div className="absolute bottom-12 left-12 w-12 h-12 border-2 border-dashed border-cyber-teal/20 rounded-xl rotate-12" />
-                
+
                 {/* Floating Badge */}
                 <motion.div
                   animate={{ y: [0, -10, 0] }}
@@ -264,7 +264,7 @@ export default function Company() {
               <span className="text-gradient">Next Generation</span> <br />
               of Business Growth
             </h2>
-            <button 
+            <button
               onClick={() => window.dispatchEvent(new Event('open-contact-modal'))}
               className="btn-primary text-xl px-12 py-6"
             >

@@ -51,13 +51,13 @@ export default function Footer() {
                   <Mail className="w-4 h-4 text-cyber-teal" /> genzdevoff@gmail.com
                 </a>
                 <a 
-                  href="https://maps.google.com/?q=6/1195+Indira+Nagar,+Narasapuram+Road,+Sivakasi"
+                  href="https://maps.google.com/?q=6/1195+Indira+Nagar,+Naranapuram+Road,+Sivakasi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 text-ink/60 hover:text-ink transition-colors leading-relaxed"
                 >
                   <MapPin className="w-4 h-4 text-cyber-teal flex-shrink-0 mt-1" />
-                  6/1195 Indira Nagar, <br /> Narasapuram Road, Sivakasi
+                  6/1195 Indira Nagar, <br /> Naranapuram Road, Sivakasi
                 </a>
               </div>
             </div>

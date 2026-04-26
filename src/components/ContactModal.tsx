@@ -216,7 +216,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               <div className="relative z-10 space-y-6 mt-16">
                 <div className="flex items-start gap-4 text-ink/60">
                   <MapPin className="w-5 h-5 text-cyber-teal flex-shrink-0 mt-0.5" />
-                  <span className="text-sm">6/1195 Indira Nagar, Narasapuram Road, Sivakasi</span>
+                  <span className="text-sm">6/1195 Indira Nagar, Naranapuram Road, Sivakasi</span>
                 </div>
                 <div className="flex items-center gap-4 text-ink/60">
                   <Phone className="w-5 h-5 text-cyber-teal flex-shrink-0" />
